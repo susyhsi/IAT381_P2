@@ -1,0 +1,32 @@
+fieldset {
+border:1px solid green;
+margin: 20px 60px; 
+}
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid green;
+  color:green;
+  font-size:90%;
+  text-align:left;
+}
+#detailcontainer1 {
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+#detailcontainer2{
+	float: left;
+}
+/*
+form#header button {
+	background: #98D4C7;
+	border: none;
+	color #FFFFFF;
+	display: black;
+	margin: 0px;
+	padding: 15px;
+}
+form#header button:hover {
+	background: #C2FFF2;
+	cursor: pointer;
+}
+*/

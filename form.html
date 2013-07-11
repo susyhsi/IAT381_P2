@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<!-- disables page scaling on mobile devices --> 
+		<title>Detailed Information</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/form.css" />
+	</head>
+	<body>
+		<div id="header">
+			<img src="img/banner.jpg"  id="banner" />
+		</div>
+
+		<div id="container">	
+
+				<ul id="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Cyclists Events</a></li>
+					<li>
+						<a href="#">Parts & Accessories</a>
+						<ul>
+							<li><a href="#">Road Bikes</a></li>
+							<li><a href="#">Touring Bikes</a></li>
+							<li><a href="#">Tools & Gear</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Shopping Cart</a>
+						<ul>
+							<li><a href="#">Your Shipping Info</a></li>
+							<li><a href="#">Inside Your Cart</a></li>
+						</ul>
+					</li>
+					<li>
+						<a id="search" href="#"><input id="inputsearch" type="search" placeholder="search">
+			</a>
+					</li>
+				</ul>
+			<h1>Shipping Form</h1>
+			<p>
+				Fill in your details
+			</p>
+			<form id="payment">
+			<fieldset>
+				<legend>Your Details</legend>
+				<ol id="removeNumber">
+					<div id="detailcontainer1">
+					<li>
+						<label for="firstname">Name</label><br/>
+						<input id="firstname" name="firstname" type="text" placeholder="First name" required autofocus />
+					</li>
+					<li>
+						<label for="email">Email</label><br/>
+						<input id="email" name="email" type="mail" placeholder="Your email" required />
+					</li>
+					</div>
+					<div id="detailcontainer2">
+					<li>
+						<label for="lastname">Surname</label><br/>
+						<input id="lastname" name="lastname" type="text" placeholder="Last name" required autofocus />
+					</li>
+					<li>				
+						<label for="phone">Phone</label><br/>
+						<input id="phone name="phone type="tel" placeholder="604-555-5555" required />
+					</li>
+					</div>
+				</ol>
+			</fieldset>
+			<fieldset>
+				<legend>Delivery address</legend>
+				<ol id="removeNumber">
+					<li>
+						<label for="address">Address</label><br/>
+						<input id="address" name="address" type="text" required /> 
+					</li>
+					<li>
+						<label for="city">City</label><br/>
+						<input id="city" name="city" type="text" required /> 
+					</li>
+					<li>
+						<label for="country">Country</label><br/>
+						<input id="country" name="country" type="text" required /> 
+					</li>
+					<li>				
+						<label for="postal">Postal Code</label><br/>
+						<input id="postal" name="postal" type="text" required /> 
+					</li>
+				</ol>
+			</fieldset>
+			<fieldset>
+				<legend>Payment Method</legend>
+					<ol id="removeNumber">
+						<li>
+							<input id="visa" name="cardtype" type="radio" />
+							<label for="visa">Visa</label>
+						</li>
+						<li>
+							<input id="paypal" name="cardtype" type="radio" />
+							<label for="paypal">Paypal</label>
+						</li>
+						<li>
+							<input id="mastercard" name="cardtype" type="radio" />	
+							<label for="mastercard">MasterCard</label>
+						</li>
+						<li>
+							<label for="cardnumber">Card Number</label><br/>
+							<input id="cardnumber" name="cardnumber" type="text" required />
+						</li>
+						<li>
+							<label>Expiry Date</label><br/>
+							<select id="month" name="month">
+								<option>--</option>
+								<option>01</option>
+								<option>02</option>																
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>			
+							</select>
+							<select id="year" name="year">
+								<option>--</option>
+								<option>2013</option>
+								<option>2014</option>																
+								<option>2015</option>
+								<option>2016</option>
+								<option>2017</option>
+								<option>2018</option>
+								<option>2019</option>
+								<option>2020</option>
+								<option>2021</option>
+								<option>2022</option>
+								<option>2023</option>	
+							</select>
+						</li>
+						<li>
+							<label for="securitycode">Security Code</label><br/>
+							<input id="securitycode" name="securitycode" type="text" required />
+						</li>
+					</ol>
+			</fieldset>
+			<fieldset>
+					<button type="submit">Finish</button>
+			</fieldset>
+		<footer>
+			<p>
+				&copy;2013. All rights reserved.
+			</p>
+		</footer>
+		</div>
+	</body>
+</html>
+<!-- 
+Green - #1C6369
+Orange - #FFD98F
+Button Green - #88907A
+Font White - #FFF6E3
+-->

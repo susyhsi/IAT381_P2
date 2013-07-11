@@ -1,0 +1,45 @@
+.box {
+	width: 341px;
+	border-style: solid;
+	float:left;
+	height:344px;
+}
+.box div {
+	width:100%;
+	height:220px;
+}
+.box h1 {
+	height:45px;
+}
+.box img {
+	height:100%;
+	margin: 0 auto;
+	display:block;
+}
+.box a:hover {
+	color: rgb(0, 186, 202);
+}
+
+.smalltext {
+	font-size: 10;
+	color: rgb(8, 102, 57);
+font-style: italic;
+padding: 90px 0px 0px 100px;
+
+}
+h1.bigtext {
+ color: rgb(8, 102, 57);
+}
+#topimage {
+	margin: 0 0 0 30px;
+	float: left;
+}
+
+
+.box1 div {
+	width:200%;
+	height:100px;
+}
+.box a h1 {
+	color:none;
+}

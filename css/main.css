@@ -1,0 +1,139 @@
+#banner{
+	margin: 0px auto;
+	width: 1200px;
+	display: block;
+}
+h1 {
+	margin: 10px;
+	padding: 0;
+	font-family: Verdana, Georgia, Times, serif;
+
+}
+h1,p,h3 {
+	margin-left: 15px;
+}
+p{
+	font-size: 12px;
+}
+body {
+	margin: 0;
+	font-size: 10px;
+	color: #88907A;
+	background-color: #2B4F49;
+}
+.container {
+	width: 1200px;
+	background-color: #FFFFFF;
+	border: none;
+	margin: 0 auto;
+	font-family: Verdana, Georgia, Times, serif;
+	color: #333333;
+}
+.container.top {
+	padding-top: 52px;
+}
+header{
+	width:700px;
+	margin: 0 auto;
+}
+.box {
+	width: 233px;
+	background-color: #FFFFFF;
+	margin: 0 25px;
+}
+.row {
+	clear: both;
+}
+a, a:visited { /* for anchor tags and visited ones */
+	color: rgb(8, 102, 57);
+	font-weight: 300;
+}
+a:active{
+	color: rgb(71, 163, 137);
+}
+a:hover {
+	color: rgb(0, 186, 202);
+}
+#removeNumber {
+    list-style: none;
+}
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+li, ul
+{
+	margin:0;
+	padding:0;
+}
+#nav {
+	list-style: none;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 5;
+	text-decoration: none;
+}
+#nav li {
+	float: left;
+	margin-right: 1px;
+	position: relative;
+}
+#nav a {
+	color: black;
+	background: #98D4C7; //light green
+	text-decoration: none;
+	height: 40px;
+	line-height: 53px;
+	border-bottom: 4px solid #636393;
+	padding:1px 15px 7px 15px;
+	color: #fff;
+	font-size:18px;
+	font-weight:lighter;
+	text-align:center;
+	text-decoration: none;
+	display: block;
+}
+#nav a:hover {
+	color:rgb(82, 104, 93);
+		border-bottom: 4px solid rgb(8, 102, 57);
+}
+#nav ul {
+	background: #fff;
+	background: rgba(255,255,255,0);
+	list-style: none;
+	position: absolute;
+	left: -9999px;
+}
+#nav ul li {
+	padding-top: 1px;
+	float: none;
+}
+#nav ul a {
+	white-space: nowrap;
+}
+#nav li:hover ul {
+	left: 0;
+
+
+}
+#nav li:hover a {
+	background: #C2FFF2; //light blue
+
+}
+#nav li:hover ul a {
+	text-decoration: none;
+
+}
+#nav li:hover ul li a:hover {
+	 background: #7BDBCB;
+}
+a#search {
+	padding: 2px 15px;
+	height: 44px;
+}
+#search input {
+	margin: 11px 0;
+}
